@@ -1,0 +1,25 @@
+%{
+#include <stdio.h>
+%}
+
+%token INTEGER
+
+%%
+
+expr : INTEGER
+     | expr '+' expr
+     | expr '-' expr
+     | '(' expr ')'
+     ;
+
+%%
+
+int main() {
+    yyparse();
+    return 0;
+}
+
+int yyerror(const char* msg) {
+    fprintf(stderr, "Erro de análise: %s\n", msg);
+    return 0;
+}

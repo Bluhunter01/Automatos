@@ -1,0 +1,3 @@
+voce pode me explicar o que é um analisador sintatico ascendente?
+voce poderia me explicar detalhadamente o que é a linguagem de programçao Yacc
+voce poderia entao usar esse conhecimento para montar um analisador lexico usando yacc?
