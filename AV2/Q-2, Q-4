@@ -1,0 +1,7 @@
+Q-2: A BNF(Backus Naur Form)  é muito conhecida e utilizada na ciencia da computaçao, pois facilita a compreensao e o desenvolvimento de compiladores,
+aumentando a capacidade de expressar estruturas sintaticas mais complexas, além de oferecer uma base para implementação de compiladores,
+e com essas regras é possivel desenvolver ferramentas que geram parte dos códigos automaticamente
+
+Q-4: O analisador semantico realiza verificações avançadas como a de escopo de variáveis, regras de acesso, entre outros, além de realizar a checagem de tipos,
+garantindo que as operações e expressões sejam realizadas corretamente em relação ao tipo de dado utilizado. Em resumo ele garante que o codigo fonte
+do programa esteja de acordo com as regras semanticas da linguagem especifica de programação.
